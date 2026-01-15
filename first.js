@@ -26,3 +26,24 @@ if(loginAge >= 18){
 else{
     console.log("Not Allowed");
 }
+
+
+// Loop
+for(let i = 1; i <= 5; i++){
+    console.log("Loop Count:",i);
+}
+
+// Function
+function add(x,y){
+    return x+y;
+}
+
+let result = add(20,30);
+console.log("Function Result:" , result);
+
+
+// Simple Backend login
+const admin = {
+    username:"Admin",
+    password:"1234"
+};
